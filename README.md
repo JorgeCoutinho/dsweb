@@ -1,2 +1,1 @@
-Disciplina:
-Desenvolvimento de Sistemas Web
+Aluna da UEA e é isso...
