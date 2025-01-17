@@ -193,12 +193,13 @@ header {
     border-top: 2px solid #ddd;
     padding: 3rem;
     text-align: center;
+    background-color: #24252a;
 }
 
 #footer h2,
 #footer p {
     margin-bottom: 1rem;
-    color: #24252a;
+    color: #fff;
 }
 
 /* Responsividade: Quando a tela for menor ou igual a 730px */
