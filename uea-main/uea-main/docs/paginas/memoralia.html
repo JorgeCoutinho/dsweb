@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memorália</title>
     <link rel="stylesheet" href="../paginas/css/style.css">
 </head>
+
 <body>
+   <!-- Cabeçalho -->
     <header>
         <nav class="nav-bar">
             <!-- Logo -->
             <div class="logo">
-                <h1>Blog do Genarde</h1>
+                <a href="../index.html">
+                    <h1>Blog do Genarde</h1>
+                </a>
             </div>
 
             <!-- Lista de navegação principal -->
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="../index.html">Início</a></li>
-                    <li class="nav-item"><a href="../paginas/sobre.html">Sobre</a></li>
-                </ul>
-            </div>
+
 
             <!-- Botão Entrar (visível apenas na versão desktop) -->
             <div class="login-button">
+
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="../index.html">Início</a></li>
+                        <li class="nav-item"><a href="./sobre.html">Sobre</a></li>
+                    </ul>
+                </div>
                 <button><a href="../login-form-main/login.html">Entrar</a></button>
             </div>
 
@@ -40,7 +47,7 @@
             <ul>
                 <li class="nav-item"><a href="../login-form-main/login.html">Entrar</a></li>
                 <li class="nav-item"><a href="../index.html">Início</a></li>
-                <li class="nav-item"><a href="../paginas/sobre.html" target="_blank">Sobre</a></li>
+                <li class="nav-item"><a href="./sobre.html" target="_blank">Sobre</a></li>
             </ul>
         </div>
     </header>
@@ -51,7 +58,7 @@
             <!--UM ARTIGO-->
             <article class="post">
                 <h1 style="font-size: 3rem;">Moysés Banarrós Israel</h1>
-                <br/>
+                <br />
                 <img src="../img/memoralia.jpg" alt="Antiga casa de Moyses Israel na UFAM">
                 <h3 class="title"><a href="#">Memorália da UFAM: Um Tributo a Moysés Benarrós Israel</a></h3>
                 <p class="description">
@@ -93,56 +100,33 @@
                 ajudou a construir, mas também nos sonhos que se realizam diariamente graças à sua contribuição.
                 </p>
                 <p class="author"> Por: Rebeca Xavier</p>
-                
+
             </article>
 
 
         </main>
 
-                        <!--SESSÃO DE BUSCAS-->
-        <aside id="search">
-            <section id="search-bar">
-                <h4>Busca</h4>
-                <form>
-                    <input type="text" placeholder="Pesquise no blog">
-                    <input type="submit" value="Buscar">
-                </form>
-            </section>
+        <!--SESSÃO DE BUSCAS-->
+        <article id="mapa">
+            <h3>Mapa: Encontre a UFAM</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63741.065685398724!2d-58.50791145136721!3d-3.1430639000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926f544670d3fc23%3A0x8bde91222107db8d!2sUFAM%2FICET-%20Campus%20I!5e0!3m2!1spt-PT!2sbr!4v1737163125639!5m2!1spt-PT!2sbr"
+                width="550" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-                <!--SESSÃO DE CATEGORIAS-->
-            <section id="categories">
-                <h4>Categorias</h4>
-                <nav>
-                    <ul>
-                        <li><a href="#">Paisagens</a></li>
-                        <li><a href="#">Aventura</a></li>
-                        <li><a href="#">Viagens longas</a></li>
-                        <li><a href="#">Florestas</a></li>
-                        <li><a href="#">Cachoeira</a></li>
-                    </ul>
-                </nav>
-            </section>
+            <article id="video">
 
-            <!--SESSÃO DE TAGS-->
-            <section id="tags">
-                <h4>Tags</h4>
-                    <div id="tags-container">
-                        <a href="./paginas/tag-cafe.html" target="_blank">Café regional</a>
-                        <a href="https://globoplay.globo.com/v/12853626/" target="_blank">Batalha Naval de Itacoatiara</a>
-                        <a href="https://www.fecani.com.br/o-festival/" target="_blank">Fecani</a>
-                        <a href="https://www.instagram.com/amazondayfestival/reel/DEfRxMVOT4V/" target="_blank">Teo Braga</a>
-                        <a href="https://www.facebook.com/portallcjitacoatiara/?locale=pt_BR" target="_blank">Portal LCJ</a>
-                        <a href="https://blocodamaizena.com.br/historia/" target="_blank">Bloco da Maizena</a>
-                    <div>
-            </section>
-        </aside>
+                <h3>Vídeo: UFAM</h3>
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FMe.KatiVieira%2Fvideos%2F743990120343616%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+            </article>
+        </article>
     </div>
 
-        <!--rodapé-->
-        <footer id="footer">
-            <h2>Blog do Genarde</h2>
-            <p>As melhores curiosidades sobre Itacoatiara</p>
-            <p>2025 &copy; Desenvolvido por: Rebeca Xavier e Jorge Mikael</p>
-        </footer>
+    <!--rodapé-->
+    <footer id="footer">
+        <h2>Blog do Genarde</h2>
+        <p>As melhores curiosidades sobre Itacoatiara</p>
+        <p>2025 &copy; Desenvolvido por: Rebeca Xavier e Jorge Mikael</p>
+    </footer>
 </body>
+
 </html>

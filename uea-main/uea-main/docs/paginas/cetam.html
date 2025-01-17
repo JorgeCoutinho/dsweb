@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CETAM</title>
     <link rel="stylesheet" href="../paginas/css/style.css">
 </head>
+
 <body>
+    <!-- Cabeçalho -->
     <header>
         <nav class="nav-bar">
             <!-- Logo -->
             <div class="logo">
-                <h1>Blog do Genarde</h1>
+                <a href="../index.html">
+                    <h1>Blog do Genarde</h1>
+                </a>
             </div>
 
             <!-- Lista de navegação principal -->
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="../index.html">Início</a></li>
-                    <li class="nav-item"><a href="../paginas/sobre.html">Sobre</a></li>
-                </ul>
-            </div>
+
 
             <!-- Botão Entrar (visível apenas na versão desktop) -->
             <div class="login-button">
+
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="../index.html">Início</a></li>
+                        <li class="nav-item"><a href="./sobre.html">Sobre</a></li>
+                    </ul>
+                </div>
                 <button><a href="../login-form-main/login.html">Entrar</a></button>
             </div>
 
@@ -40,11 +47,11 @@
             <ul>
                 <li class="nav-item"><a href="../login-form-main/login.html">Entrar</a></li>
                 <li class="nav-item"><a href="../index.html">Início</a></li>
-                <li class="nav-item"><a href="../paginas/sobre.html" target="_blank">Sobre</a></li>
+                <li class="nav-item"><a href="./sobre.html" target="_blank">Sobre</a></li>
             </ul>
         </div>
     </header>
-    
+
     <!--CONTAINER-->
     <div class="container">
         <main id="posts-container">
@@ -52,9 +59,10 @@
             <!--UM ARTIGO-->
             <article class="post">
                 <h1 style="font-size: 3rem;">Moysés Banarrós Israel</h1>
-                <br/>
+                <br />
                 <img src="../img/cetam.jpg" alt="Imagem do CETAM em Itacoatiara">
-                <h3 class="title"><a href="#">CETAM em Itacoatiara: Uma Contribuição de Moysés Benarrós Israel para a Educação Profissional</a></h3>
+                <h3 class="title"><a href="#">CETAM em Itacoatiara: Uma Contribuição de Moysés Benarrós Israel para a
+                        Educação Profissional</a></h3>
                 <p class="description">
                     A educação profissional em Itacoatiara deu um salto significativo com a inauguração da Escola de
                     Educação Profissional Moysés Benarrós Israel, uma unidade do Centro de Educação Tecnológica do
@@ -87,59 +95,36 @@
                 A contribuição de Moysés Benarrós Israel para a criação do CETAM em Itacoatiara é um exemplo inspirador
                 de como o compromisso com a educação pode transformar comunidades. Seu legado permanece vivo nos sonhos
                 realizados por cada estudante que encontra no CETAM uma oportunidade de mudar sua história. Itacoatiara
-                e o Amazonas são profundamente gratos a esse visionário, cujo impacto continuará a ser sentido por gerações.
+                e o Amazonas são profundamente gratos a esse visionário, cujo impacto continuará a ser sentido por
+                gerações.
                 </p>
                 <p class="author"> Por: Rebeca Xavier</p>
-                
+
             </article>
 
 
         </main>
 
-                        <!--SESSÃO DE BUSCAS-->
-        <aside id="search">
-            <section id="search-bar">
-                <h4>Busca</h4>
-                <form>
-                    <input type="text" placeholder="Pesquise no blog">
-                    <input type="submit" value="Buscar">
-                </form>
-            </section>
+        <!--SESSÃO DE MAPA-->
+        <article id="mapa">
+            <h3>Mapa: Encontre a CETAM</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1019760.8853885627!2d-59.52588996670411!3d-3.2399586181486786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926f54267d9c6307%3A0xdeef7313dacd55bc!2sUEA%20Itacoatiara%20-%20CESIT!5e0!3m2!1spt-PT!2sbr!4v1737164560695!5m2!1spt-PT!2sbrr"
+                width="550" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-                <!--SESSÃO DE CATEGORIAS-->
-            <section id="categories">
-                <h4>Categorias</h4>
-                <nav>
-                    <ul>
-                        <li><a href="#">Paisagens</a></li>
-                        <li><a href="#">Aventura</a></li>
-                        <li><a href="#">Viagens longas</a></li>
-                        <li><a href="#">Florestas</a></li>
-                        <li><a href="#">Cachoeira</a></li>
-                    </ul>
-                </nav>
-            </section>
+            <article id="video">
 
-            <!--SESSÃO DE TAGS-->
-            <section id="tags">
-                <h4>Tags</h4>
-                    <div id="tags-container">
-                        <a href="./paginas/tag-cafe.html" target="_blank">Café regional</a>
-                        <a href="https://globoplay.globo.com/v/12853626/" target="_blank">Batalha Naval de Itacoatiara</a>
-                        <a href="https://www.fecani.com.br/o-festival/" target="_blank">Fecani</a>
-                        <a href="https://www.instagram.com/amazondayfestival/reel/DEfRxMVOT4V/" target="_blank">Teo Braga</a>
-                        <a href="https://www.facebook.com/portallcjitacoatiara/?locale=pt_BR" target="_blank">Portal LCJ</a>
-                        <a href="https://blocodamaizena.com.br/historia/" target="_blank">Bloco da Maizena</a>
-                    <div>
-            </section>
-        </aside>
+                <h3>Vídeo: UFAM</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zR0d9Td9Jpw?si=bsDDQmLsFG61Np_d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </article>
     </div>
 
-        <!--rodapé-->
-        <footer id="footer">
-            <h2>Blog do Genarde</h2>
-            <p>As melhores curiosidades sobre Itacoatiara</p>
-            <p>2025 &copy; Desenvolvido por: Rebeca Xavier e Jorge Mikael</p>
-        </footer>
+    <!--rodapé-->
+    <footer id="footer">
+        <h2>Blog do Genarde</h2>
+        <p>As melhores curiosidades sobre Itacoatiara</p>
+        <p>2025 &copy; Desenvolvido por: Rebeca Xavier e Jorge Mikael</p>
+    </footer>
 </body>
+
 </html>

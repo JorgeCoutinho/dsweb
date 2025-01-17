@@ -11,6 +11,10 @@ ul{
     list-style: none;
 }
 
+body {
+    background-color: #f4f2ec;
+}
+
 a{
     text-decoration: none;
     color: #444;
@@ -38,6 +42,12 @@ header {
     align-items: center;
     width: 100%; /* Garante que a barra ocupe a largura total */
     max-width: 1200px; /* Define um limite máximo para centralizar */
+}
+
+/* Estilo do button */
+.login-button {
+    display: flex;
+    align-items: center;
 }
 
 /* Estilo do logo */
